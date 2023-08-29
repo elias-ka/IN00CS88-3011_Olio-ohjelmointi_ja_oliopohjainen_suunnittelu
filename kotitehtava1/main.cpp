@@ -28,7 +28,7 @@ auto game(int maxnum) -> int {
             std::cout << "luku on pienempi\n";
         } else {
             std::cout << "oikea vastaus\n";
-            return 0;
+            return guesses;
         }
     }
 }
@@ -37,5 +37,7 @@ auto main() -> int {
     int maxnum;
     std::cout << "Anna suurin mahdollinen luku: ";
     std::cin >> maxnum;
-    game(maxnum);
+
+    int guesses = game(maxnum);
+    std::cout << guesses << " arvausta\n";
 }
