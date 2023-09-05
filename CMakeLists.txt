@@ -3,3 +3,4 @@ project(viikkotehtavat)
 
 add_subdirectory(kotitehtava1)
 add_subdirectory(kotitehtava2)
+add_subdirectory(kotitehtava3)
