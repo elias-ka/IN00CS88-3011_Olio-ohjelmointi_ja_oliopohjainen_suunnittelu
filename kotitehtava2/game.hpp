@@ -3,19 +3,19 @@
 
 class Game {
 public:
-    explicit Game(int max_number);
+  explicit Game(int max_number);
 
-    ~Game();
+  ~Game();
 
-    auto play() -> void;
+  auto play() -> void;
 
 private:
-    auto print_game_result() const -> void;
+  auto print_game_result() const -> void;
 
-    int max_number_;
-    int player_guess_{};
-    int random_number_{};
-    int num_of_guesses_{};
+  int max_number_;
+  int player_guess_{};
+  int random_number_{};
+  int num_of_guesses_{};
 };
 
-#endif //KOTITEHTAVA2_GAME_HPP
+#endif  // KOTITEHTAVA2_GAME_HPP
