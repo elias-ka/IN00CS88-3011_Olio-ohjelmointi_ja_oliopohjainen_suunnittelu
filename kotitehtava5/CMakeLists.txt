@@ -1,5 +1,5 @@
 add_executable(
-  kotitehtava4
+  kotitehtava5
   main.cpp
   asunto.hpp
   asunto.cpp
@@ -9,4 +9,4 @@ add_executable(
   kerros.cpp
   kerrostalo.hpp
   kerrostalo.cpp)
-target_compile_features(kotitehtava4 PRIVATE cxx_std_23)
+target_compile_features(kotitehtava5 PRIVATE cxx_std_23)
