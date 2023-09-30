@@ -15,8 +15,8 @@ public:
       , display_{std::make_unique<Display>()} {};
 
   auto loop() -> void;
-  auto show_menu() -> void;
-  auto show_device_info() -> void;
+  auto show_menu() const -> void;
+  auto show_device_info() const -> void;
 
   auto set_mouse_info() -> void;
   auto set_touchpad_info() -> void;

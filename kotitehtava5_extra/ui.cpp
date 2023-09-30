@@ -3,7 +3,7 @@
 
 #include "ui.hpp"
 
-auto Ui::show_menu() -> void {
+auto Ui::show_menu() const -> void {
   std::cout << "DEVICE MENU\n"
             << "===========\n"
             << "1) Set Mouse Information\n"
@@ -75,7 +75,7 @@ auto Ui::set_display_info() -> void {
   display_->set_resolution();
 }
 
-auto Ui::show_device_info() -> void {
+auto Ui::show_device_info() const -> void {
   std::cout << "\nDEVICE INFORMATION\n"
             << "====================\n"
             << "Mouse Device ID: " << mouse_->get_device_id()
