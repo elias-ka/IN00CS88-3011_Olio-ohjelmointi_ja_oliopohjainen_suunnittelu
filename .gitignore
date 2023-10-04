@@ -1,5 +1,6 @@
 .idea
 cmake-build-debug
 cmake-build-release
-build
+build*
 .cache
+CMakeLists.txt.user

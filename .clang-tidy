@@ -10,7 +10,8 @@ Checks: "*,\
   -modernize-use-nodiscard,\
   -misc-non-private-member-variables-in-classes,\
   -cppcoreguidelines-non-private-member-variables-in-classes,\
-  -hicpp-special-member-functions"
+  -hicpp-special-member-functions,\
+  -readability-identifier-length"
 WarningsAsErrors: ""
 CheckOptions:
   - key: "bugprone-argument-comment.StrictMode"
