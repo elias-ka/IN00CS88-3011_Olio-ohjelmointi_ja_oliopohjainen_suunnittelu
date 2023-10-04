@@ -23,9 +23,6 @@ private slots:
   void onCountButtonClick();
   void onResetButtonClick();
 
-signals:
-  void countChanged();
-
 private:
   Ui::MainWindow* ui_;
   QPushButton* count_button_;
