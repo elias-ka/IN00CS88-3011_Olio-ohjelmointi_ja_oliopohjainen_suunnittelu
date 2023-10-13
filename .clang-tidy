@@ -11,7 +11,9 @@ Checks: "*,\
   -misc-non-private-member-variables-in-classes,\
   -cppcoreguidelines-non-private-member-variables-in-classes,\
   -hicpp-special-member-functions,\
-  -readability-identifier-length"
+  -readability-identifier-length,\
+  -cppcoreguidelines-avoid-magic-numbers,\
+  -readability-magic-numbers"
 WarningsAsErrors: ""
 CheckOptions:
   - key: "bugprone-argument-comment.StrictMode"
